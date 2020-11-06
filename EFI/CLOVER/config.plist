@@ -226,7 +226,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -cdfon -igfxnohdmi</string>
+		<string>dart=0 nv_disable=1 acldelay=500 -cdfon -igfxnohdmi</string>
 		<key>DefaultVolume</key>
 		<string>sa2000</string>
 		<key>NeverHibernate</key>
@@ -234,7 +234,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>1</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
